@@ -7,15 +7,86 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74D819517ECF48E6CEB62DC3 /* libPods-HBJSPatch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D4F1F82E88DA08A01CF59B2 /* libPods-HBJSPatch.a */; };
 		F8B8649C1D77C5CE00222F6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B8649B1D77C5CE00222F6F /* main.m */; };
 		F8B8649F1D77C5CE00222F6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B8649E1D77C5CE00222F6F /* AppDelegate.m */; };
 		F8B864A21D77C5CE00222F6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B864A11D77C5CE00222F6F /* ViewController.m */; };
 		F8B864A51D77C5CE00222F6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B864A31D77C5CE00222F6F /* Main.storyboard */; };
 		F8B864A71D77C5CE00222F6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B864A61D77C5CE00222F6F /* Assets.xcassets */; };
 		F8B864AA1D77C5CE00222F6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B864A81D77C5CE00222F6F /* LaunchScreen.storyboard */; };
+		F8B864F01D77C5D900222F6F /* JPLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B864C21D77C5D900222F6F /* JPLoader.m */; };
+		F8B864F11D77C5D900222F6F /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = F8B864C61D77C5D900222F6F /* ioapi.c */; };
+		F8B864F21D77C5D900222F6F /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = F8B864C81D77C5D900222F6F /* mztools.c */; };
+		F8B864F31D77C5D900222F6F /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = F8B864CA1D77C5D900222F6F /* unzip.c */; };
+		F8B864F41D77C5D900222F6F /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = F8B864CC1D77C5D900222F6F /* zip.c */; };
+		F8B864F51D77C5D900222F6F /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B864CF1D77C5D900222F6F /* RSA.m */; };
+		F8B864F61D77C5D900222F6F /* ZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B864D11D77C5D900222F6F /* ZipArchive.m */; };
+		F8B864F71D77C5D900222F6F /* CommonDefine.js in Resources */ = {isa = PBXBuildFile; fileRef = F8B864D41D77C5D900222F6F /* CommonDefine.js */; };
+		F8B864F81D77C5D900222F6F /* DBDataSource.js in Resources */ = {isa = PBXBuildFile; fileRef = F8B864D51D77C5D900222F6F /* DBDataSource.js */; };
+		F8B864F91D77C5D900222F6F /* DBDetailController.js in Resources */ = {isa = PBXBuildFile; fileRef = F8B864D61D77C5D900222F6F /* DBDetailController.js */; };
+		F8B864FA1D77C5D900222F6F /* DBDetailViews.js in Resources */ = {isa = PBXBuildFile; fileRef = F8B864D71D77C5D900222F6F /* DBDetailViews.js */; };
+		F8B864FB1D77C5D900222F6F /* DBTimelineController.js in Resources */ = {isa = PBXBuildFile; fileRef = F8B864D81D77C5D900222F6F /* DBTimelineController.js */; };
+		F8B864FC1D77C5D900222F6F /* DBTimelineViews.js in Resources */ = {isa = PBXBuildFile; fileRef = F8B864D91D77C5D900222F6F /* DBTimelineViews.js */; };
+		F8B864FD1D77C5D900222F6F /* DBUserController.js in Resources */ = {isa = PBXBuildFile; fileRef = F8B864DA1D77C5D900222F6F /* DBUserController.js */; };
+		F8B864FE1D77C5D900222F6F /* DBUserViews.js in Resources */ = {isa = PBXBuildFile; fileRef = F8B864DB1D77C5D900222F6F /* DBUserViews.js */; };
+		F8B864FF1D77C5D900222F6F /* comment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B864DD1D77C5D900222F6F /* comment@2x.png */; };
+		F8B865001D77C5D900222F6F /* like@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B864DE1D77C5D900222F6F /* like@2x.png */; };
+		F8B865011D77C5D900222F6F /* view@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B864DF1D77C5D900222F6F /* view@2x.png */; };
+		F8B865021D77C5D900222F6F /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = F8B864E01D77C5D900222F6F /* main.js */; };
+		F8B865031D77C5D900222F6F /* main2.js in Resources */ = {isa = PBXBuildFile; fileRef = F8B864E11D77C5D900222F6F /* main2.js */; };
+		F8B865041D77C5D900222F6F /* tmpData.js in Resources */ = {isa = PBXBuildFile; fileRef = F8B864E21D77C5D900222F6F /* tmpData.js */; };
+		F8B865101D77C5E100222F6F /* JPEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B8650E1D77C5E100222F6F /* JPEngine.m */; };
+		F8B865111D77C5E100222F6F /* JSPatch.js in Resources */ = {isa = PBXBuildFile; fileRef = F8B8650F1D77C5E100222F6F /* JSPatch.js */; };
+		F8B865141D77C5F900222F6F /* YYPatchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B865131D77C5F900222F6F /* YYPatchManager.m */; };
+		F8B865921D77C64C00222F6F /* JPCGBitmapContext.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B865181D77C64B00222F6F /* JPCGBitmapContext.m */; };
+		F8B865931D77C64C00222F6F /* JPCGColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B8651A1D77C64B00222F6F /* JPCGColor.m */; };
+		F8B865941D77C64C00222F6F /* JPCGContext.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B8651C1D77C64B00222F6F /* JPCGContext.m */; };
+		F8B865951D77C64C00222F6F /* JPCGGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B8651E1D77C64B00222F6F /* JPCGGeometry.m */; };
+		F8B865961D77C64C00222F6F /* JPCGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B865201D77C64B00222F6F /* JPCGImage.m */; };
+		F8B865971D77C64C00222F6F /* JPCGPath.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B865221D77C64B00222F6F /* JPCGPath.m */; };
+		F8B865981D77C64C00222F6F /* JPCGTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B865241D77C64B00222F6F /* JPCGTransform.m */; };
+		F8B865991D77C64C00222F6F /* JPCoreGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B865261D77C64B00222F6F /* JPCoreGraphics.m */; };
+		F8B8659A1D77C64C00222F6F /* JPCFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B865291D77C64B00222F6F /* JPCFunction.m */; };
+		F8B8659B1D77C64C00222F6F /* JPMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B8652B1D77C64B00222F6F /* JPMemory.m */; };
+		F8B8659C1D77C64C00222F6F /* JPStructPointer.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B8652D1D77C64B00222F6F /* JPStructPointer.m */; };
+		F8B8659D1D77C64C00222F6F /* ffi_arm64.c in Sources */ = {isa = PBXBuildFile; fileRef = F8B865421D77C64B00222F6F /* ffi_arm64.c */; };
+		F8B8659E1D77C64C00222F6F /* sysv_arm64.S in Sources */ = {isa = PBXBuildFile; fileRef = F8B865431D77C64B00222F6F /* sysv_arm64.S */; };
+		F8B8659F1D77C64C00222F6F /* ffi_armv7.c in Sources */ = {isa = PBXBuildFile; fileRef = F8B865451D77C64B00222F6F /* ffi_armv7.c */; };
+		F8B865A01D77C64C00222F6F /* sysv_armv7.S in Sources */ = {isa = PBXBuildFile; fileRef = F8B865461D77C64B00222F6F /* sysv_armv7.S */; };
+		F8B865A11D77C64C00222F6F /* trampoline_armv7.S in Sources */ = {isa = PBXBuildFile; fileRef = F8B865471D77C64B00222F6F /* trampoline_armv7.S */; };
+		F8B865A21D77C64C00222F6F /* prep_cif.c in Sources */ = {isa = PBXBuildFile; fileRef = F8B865491D77C64B00222F6F /* prep_cif.c */; };
+		F8B865A31D77C64C00222F6F /* raw_api.c in Sources */ = {isa = PBXBuildFile; fileRef = F8B8654A1D77C64B00222F6F /* raw_api.c */; };
+		F8B865A41D77C64C00222F6F /* types.c in Sources */ = {isa = PBXBuildFile; fileRef = F8B8654B1D77C64B00222F6F /* types.c */; };
+		F8B865A51D77C64C00222F6F /* darwin64_x86_64.S in Sources */ = {isa = PBXBuildFile; fileRef = F8B8654D1D77C64B00222F6F /* darwin64_x86_64.S */; };
+		F8B865A61D77C64C00222F6F /* darwin_i386.S in Sources */ = {isa = PBXBuildFile; fileRef = F8B8654E1D77C64B00222F6F /* darwin_i386.S */; };
+		F8B865A71D77C64C00222F6F /* ffi64_x86_64.c in Sources */ = {isa = PBXBuildFile; fileRef = F8B8654F1D77C64B00222F6F /* ffi64_x86_64.c */; };
+		F8B865A81D77C64C00222F6F /* ffi_i386.c in Sources */ = {isa = PBXBuildFile; fileRef = F8B865501D77C64B00222F6F /* ffi_i386.c */; };
+		F8B865A91D77C64C00222F6F /* win32_i386.S in Sources */ = {isa = PBXBuildFile; fileRef = F8B865511D77C64B00222F6F /* win32_i386.S */; };
+		F8B865B61D77C64C00222F6F /* JPCleaner.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B8656E1D77C64C00222F6F /* JPCleaner.m */; };
+		F8B865B71D77C64C00222F6F /* JPLocker.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B865701D77C64C00222F6F /* JPLocker.m */; };
+		F8B865B91D77C64C00222F6F /* JPNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B865741D77C64C00222F6F /* JPNumber.m */; };
+		F8B865BA1D77C64C00222F6F /* JPPlayground.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B865771D77C64C00222F6F /* JPPlayground.m */; };
+		F8B865BB1D77C64C00222F6F /* JPKeyCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B8657A1D77C64C00222F6F /* JPKeyCommands.m */; };
+		F8B865BC1D77C64C00222F6F /* SGDirWatchdog.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B8657C1D77C64C00222F6F /* SGDirWatchdog.m */; };
+		F8B865BD1D77C64C00222F6F /* JPDevErrorView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B8657F1D77C64C00222F6F /* JPDevErrorView.m */; };
+		F8B865BE1D77C64C00222F6F /* JPDevMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B865811D77C64C00222F6F /* JPDevMenu.m */; };
+		F8B865BF1D77C64C00222F6F /* JPDevTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B865831D77C64C00222F6F /* JPDevTipView.m */; };
+		F8B865C01D77C64C00222F6F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = F8B865841D77C64C00222F6F /* README.md */; };
+		F8B865C11D77C64C00222F6F /* JPSpecialInit.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B865861D77C64C00222F6F /* JPSpecialInit.m */; };
+		F8B865C31D77C64C00222F6F /* JPUIGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B8658B1D77C64C00222F6F /* JPUIGeometry.m */; };
+		F8B865C41D77C64C00222F6F /* JPUIGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B8658D1D77C64C00222F6F /* JPUIGraphics.m */; };
+		F8B865C51D77C64C00222F6F /* JPUIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B8658F1D77C64C00222F6F /* JPUIImage.m */; };
+		F8B865C61D77C64C00222F6F /* JPUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B865911D77C64C00222F6F /* JPUIKit.m */; };
+		F8B865C81D77C67000222F6F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B865C71D77C67000222F6F /* Security.framework */; };
+		F8B865CA1D77C67A00222F6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B865C91D77C67A00222F6F /* UIKit.framework */; };
+		F8B865CC1D77C71B00222F6F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B865CB1D77C71B00222F6F /* libz.tbd */; };
+		F8B865CE1D77CC3E00222F6F /* dribbble in Resources */ = {isa = PBXBuildFile; fileRef = F8B865CD1D77CC3E00222F6F /* dribbble */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		037FB2895A1B7C2892C5A323 /* Pods-HBJSPatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBJSPatch.release.xcconfig"; path = "Pods/Target Support Files/Pods-HBJSPatch/Pods-HBJSPatch.release.xcconfig"; sourceTree = "<group>"; };
+		3FA94ADBC378B5F00A1680B4 /* Pods-HBJSPatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBJSPatch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HBJSPatch/Pods-HBJSPatch.debug.xcconfig"; sourceTree = "<group>"; };
+		7D4F1F82E88DA08A01CF59B2 /* libPods-HBJSPatch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HBJSPatch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B864971D77C5CE00222F6F /* HBJSPatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBJSPatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B8649B1D77C5CE00222F6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F8B8649D1D77C5CE00222F6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +97,124 @@
 		F8B864A61D77C5CE00222F6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8B864A91D77C5CE00222F6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8B864AB1D77C5CE00222F6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8B864C11D77C5D900222F6F /* JPLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPLoader.h; sourceTree = "<group>"; };
+		F8B864C21D77C5D900222F6F /* JPLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPLoader.m; sourceTree = "<group>"; };
+		F8B864C51D77C5D900222F6F /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		F8B864C61D77C5D900222F6F /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		F8B864C71D77C5D900222F6F /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		F8B864C81D77C5D900222F6F /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		F8B864C91D77C5D900222F6F /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		F8B864CA1D77C5D900222F6F /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		F8B864CB1D77C5D900222F6F /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		F8B864CC1D77C5D900222F6F /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		F8B864CD1D77C5D900222F6F /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		F8B864CE1D77C5D900222F6F /* RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSA.h; sourceTree = "<group>"; };
+		F8B864CF1D77C5D900222F6F /* RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSA.m; sourceTree = "<group>"; };
+		F8B864D01D77C5D900222F6F /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		F8B864D11D77C5D900222F6F /* ZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZipArchive.m; sourceTree = "<group>"; };
+		F8B864D41D77C5D900222F6F /* CommonDefine.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = CommonDefine.js; sourceTree = "<group>"; };
+		F8B864D51D77C5D900222F6F /* DBDataSource.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = DBDataSource.js; sourceTree = "<group>"; };
+		F8B864D61D77C5D900222F6F /* DBDetailController.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = DBDetailController.js; sourceTree = "<group>"; };
+		F8B864D71D77C5D900222F6F /* DBDetailViews.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = DBDetailViews.js; sourceTree = "<group>"; };
+		F8B864D81D77C5D900222F6F /* DBTimelineController.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = DBTimelineController.js; sourceTree = "<group>"; };
+		F8B864D91D77C5D900222F6F /* DBTimelineViews.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = DBTimelineViews.js; sourceTree = "<group>"; };
+		F8B864DA1D77C5D900222F6F /* DBUserController.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = DBUserController.js; sourceTree = "<group>"; };
+		F8B864DB1D77C5D900222F6F /* DBUserViews.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = DBUserViews.js; sourceTree = "<group>"; };
+		F8B864DD1D77C5D900222F6F /* comment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "comment@2x.png"; sourceTree = "<group>"; };
+		F8B864DE1D77C5D900222F6F /* like@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "like@2x.png"; sourceTree = "<group>"; };
+		F8B864DF1D77C5D900222F6F /* view@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "view@2x.png"; sourceTree = "<group>"; };
+		F8B864E01D77C5D900222F6F /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		F8B864E11D77C5D900222F6F /* main2.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main2.js; sourceTree = "<group>"; };
+		F8B864E21D77C5D900222F6F /* tmpData.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = tmpData.js; sourceTree = "<group>"; };
+		F8B8650D1D77C5E100222F6F /* JPEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPEngine.h; sourceTree = "<group>"; };
+		F8B8650E1D77C5E100222F6F /* JPEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPEngine.m; sourceTree = "<group>"; };
+		F8B8650F1D77C5E100222F6F /* JSPatch.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = JSPatch.js; sourceTree = "<group>"; };
+		F8B865121D77C5F900222F6F /* YYPatchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYPatchManager.h; sourceTree = "<group>"; };
+		F8B865131D77C5F900222F6F /* YYPatchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYPatchManager.m; sourceTree = "<group>"; };
+		F8B865171D77C64B00222F6F /* JPCGBitmapContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGBitmapContext.h; sourceTree = "<group>"; };
+		F8B865181D77C64B00222F6F /* JPCGBitmapContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGBitmapContext.m; sourceTree = "<group>"; };
+		F8B865191D77C64B00222F6F /* JPCGColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGColor.h; sourceTree = "<group>"; };
+		F8B8651A1D77C64B00222F6F /* JPCGColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGColor.m; sourceTree = "<group>"; };
+		F8B8651B1D77C64B00222F6F /* JPCGContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGContext.h; sourceTree = "<group>"; };
+		F8B8651C1D77C64B00222F6F /* JPCGContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGContext.m; sourceTree = "<group>"; };
+		F8B8651D1D77C64B00222F6F /* JPCGGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGGeometry.h; sourceTree = "<group>"; };
+		F8B8651E1D77C64B00222F6F /* JPCGGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGGeometry.m; sourceTree = "<group>"; };
+		F8B8651F1D77C64B00222F6F /* JPCGImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGImage.h; sourceTree = "<group>"; };
+		F8B865201D77C64B00222F6F /* JPCGImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGImage.m; sourceTree = "<group>"; };
+		F8B865211D77C64B00222F6F /* JPCGPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGPath.h; sourceTree = "<group>"; };
+		F8B865221D77C64B00222F6F /* JPCGPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGPath.m; sourceTree = "<group>"; };
+		F8B865231D77C64B00222F6F /* JPCGTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGTransform.h; sourceTree = "<group>"; };
+		F8B865241D77C64B00222F6F /* JPCGTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGTransform.m; sourceTree = "<group>"; };
+		F8B865251D77C64B00222F6F /* JPCoreGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCoreGraphics.h; sourceTree = "<group>"; };
+		F8B865261D77C64B00222F6F /* JPCoreGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCoreGraphics.m; sourceTree = "<group>"; };
+		F8B865281D77C64B00222F6F /* JPCFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCFunction.h; sourceTree = "<group>"; };
+		F8B865291D77C64B00222F6F /* JPCFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCFunction.m; sourceTree = "<group>"; };
+		F8B8652A1D77C64B00222F6F /* JPMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPMemory.h; sourceTree = "<group>"; };
+		F8B8652B1D77C64B00222F6F /* JPMemory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPMemory.m; sourceTree = "<group>"; };
+		F8B8652C1D77C64B00222F6F /* JPStructPointer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPStructPointer.h; sourceTree = "<group>"; };
+		F8B8652D1D77C64B00222F6F /* JPStructPointer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPStructPointer.m; sourceTree = "<group>"; };
+		F8B865301D77C64B00222F6F /* ffi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi.h; sourceTree = "<group>"; };
+		F8B865311D77C64B00222F6F /* ffi_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_arm64.h; sourceTree = "<group>"; };
+		F8B865321D77C64B00222F6F /* ffi_armv7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_armv7.h; sourceTree = "<group>"; };
+		F8B865331D77C64B00222F6F /* ffi_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_common.h; sourceTree = "<group>"; };
+		F8B865341D77C64B00222F6F /* ffi_i386.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_i386.h; sourceTree = "<group>"; };
+		F8B865351D77C64B00222F6F /* ffi_x86_64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_x86_64.h; sourceTree = "<group>"; };
+		F8B865361D77C64B00222F6F /* fficonfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fficonfig.h; sourceTree = "<group>"; };
+		F8B865371D77C64B00222F6F /* fficonfig_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fficonfig_arm64.h; sourceTree = "<group>"; };
+		F8B865381D77C64B00222F6F /* fficonfig_armv7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fficonfig_armv7.h; sourceTree = "<group>"; };
+		F8B865391D77C64B00222F6F /* fficonfig_i386.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fficonfig_i386.h; sourceTree = "<group>"; };
+		F8B8653A1D77C64B00222F6F /* fficonfig_x86_64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fficonfig_x86_64.h; sourceTree = "<group>"; };
+		F8B8653B1D77C64B00222F6F /* ffitarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget.h; sourceTree = "<group>"; };
+		F8B8653C1D77C64B00222F6F /* ffitarget_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_arm64.h; sourceTree = "<group>"; };
+		F8B8653D1D77C64B00222F6F /* ffitarget_armv7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_armv7.h; sourceTree = "<group>"; };
+		F8B8653E1D77C64B00222F6F /* ffitarget_i386.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_i386.h; sourceTree = "<group>"; };
+		F8B8653F1D77C64B00222F6F /* ffitarget_x86_64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_x86_64.h; sourceTree = "<group>"; };
+		F8B865421D77C64B00222F6F /* ffi_arm64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ffi_arm64.c; sourceTree = "<group>"; };
+		F8B865431D77C64B00222F6F /* sysv_arm64.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = sysv_arm64.S; sourceTree = "<group>"; };
+		F8B865451D77C64B00222F6F /* ffi_armv7.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ffi_armv7.c; sourceTree = "<group>"; };
+		F8B865461D77C64B00222F6F /* sysv_armv7.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = sysv_armv7.S; sourceTree = "<group>"; };
+		F8B865471D77C64B00222F6F /* trampoline_armv7.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = trampoline_armv7.S; sourceTree = "<group>"; };
+		F8B865491D77C64B00222F6F /* prep_cif.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prep_cif.c; sourceTree = "<group>"; };
+		F8B8654A1D77C64B00222F6F /* raw_api.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = raw_api.c; sourceTree = "<group>"; };
+		F8B8654B1D77C64B00222F6F /* types.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = types.c; sourceTree = "<group>"; };
+		F8B8654D1D77C64B00222F6F /* darwin64_x86_64.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = darwin64_x86_64.S; sourceTree = "<group>"; };
+		F8B8654E1D77C64B00222F6F /* darwin_i386.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = darwin_i386.S; sourceTree = "<group>"; };
+		F8B8654F1D77C64B00222F6F /* ffi64_x86_64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ffi64_x86_64.c; sourceTree = "<group>"; };
+		F8B865501D77C64B00222F6F /* ffi_i386.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ffi_i386.c; sourceTree = "<group>"; };
+		F8B865511D77C64B00222F6F /* win32_i386.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = win32_i386.S; sourceTree = "<group>"; };
+		F8B8656D1D77C64C00222F6F /* JPCleaner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCleaner.h; sourceTree = "<group>"; };
+		F8B8656E1D77C64C00222F6F /* JPCleaner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCleaner.m; sourceTree = "<group>"; };
+		F8B8656F1D77C64C00222F6F /* JPLocker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPLocker.h; sourceTree = "<group>"; };
+		F8B865701D77C64C00222F6F /* JPLocker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPLocker.m; sourceTree = "<group>"; };
+		F8B865731D77C64C00222F6F /* JPNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPNumber.h; sourceTree = "<group>"; };
+		F8B865741D77C64C00222F6F /* JPNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPNumber.m; sourceTree = "<group>"; };
+		F8B865761D77C64C00222F6F /* JPPlayground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPPlayground.h; sourceTree = "<group>"; };
+		F8B865771D77C64C00222F6F /* JPPlayground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPPlayground.m; sourceTree = "<group>"; };
+		F8B865791D77C64C00222F6F /* JPKeyCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPKeyCommands.h; sourceTree = "<group>"; };
+		F8B8657A1D77C64C00222F6F /* JPKeyCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPKeyCommands.m; sourceTree = "<group>"; };
+		F8B8657B1D77C64C00222F6F /* SGDirWatchdog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGDirWatchdog.h; sourceTree = "<group>"; };
+		F8B8657C1D77C64C00222F6F /* SGDirWatchdog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGDirWatchdog.m; sourceTree = "<group>"; };
+		F8B8657E1D77C64C00222F6F /* JPDevErrorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPDevErrorView.h; sourceTree = "<group>"; };
+		F8B8657F1D77C64C00222F6F /* JPDevErrorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPDevErrorView.m; sourceTree = "<group>"; };
+		F8B865801D77C64C00222F6F /* JPDevMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPDevMenu.h; sourceTree = "<group>"; };
+		F8B865811D77C64C00222F6F /* JPDevMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPDevMenu.m; sourceTree = "<group>"; };
+		F8B865821D77C64C00222F6F /* JPDevTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPDevTipView.h; sourceTree = "<group>"; };
+		F8B865831D77C64C00222F6F /* JPDevTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPDevTipView.m; sourceTree = "<group>"; };
+		F8B865841D77C64C00222F6F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F8B865851D77C64C00222F6F /* JPSpecialInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPSpecialInit.h; sourceTree = "<group>"; };
+		F8B865861D77C64C00222F6F /* JPSpecialInit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPSpecialInit.m; sourceTree = "<group>"; };
+		F8B8658A1D77C64C00222F6F /* JPUIGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUIGeometry.h; sourceTree = "<group>"; };
+		F8B8658B1D77C64C00222F6F /* JPUIGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPUIGeometry.m; sourceTree = "<group>"; };
+		F8B8658C1D77C64C00222F6F /* JPUIGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUIGraphics.h; sourceTree = "<group>"; };
+		F8B8658D1D77C64C00222F6F /* JPUIGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPUIGraphics.m; sourceTree = "<group>"; };
+		F8B8658E1D77C64C00222F6F /* JPUIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUIImage.h; sourceTree = "<group>"; };
+		F8B8658F1D77C64C00222F6F /* JPUIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPUIImage.m; sourceTree = "<group>"; };
+		F8B865901D77C64C00222F6F /* JPUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUIKit.h; sourceTree = "<group>"; };
+		F8B865911D77C64C00222F6F /* JPUIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPUIKit.m; sourceTree = "<group>"; };
+		F8B865C71D77C67000222F6F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F8B865C91D77C67A00222F6F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F8B865CB1D77C71B00222F6F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F8B865CD1D77CC3E00222F6F /* dribbble */ = {isa = PBXFileReference; lastKnownFileType = folder; path = dribbble; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +222,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8B865CC1D77C71B00222F6F /* libz.tbd in Frameworks */,
+				F8B865CA1D77C67A00222F6F /* UIKit.framework in Frameworks */,
+				F8B865C81D77C67000222F6F /* Security.framework in Frameworks */,
+				74D819517ECF48E6CEB62DC3 /* libPods-HBJSPatch.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08ABD24898DAA8DC261ED459 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FA94ADBC378B5F00A1680B4 /* Pods-HBJSPatch.debug.xcconfig */,
+				037FB2895A1B7C2892C5A323 /* Pods-HBJSPatch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4EB7EE640178E0D9799D2AA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8B865CB1D77C71B00222F6F /* libz.tbd */,
+				7D4F1F82E88DA08A01CF59B2 /* libPods-HBJSPatch.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F8B8648E1D77C5CE00222F6F = {
 			isa = PBXGroup;
 			children = (
+				F8B865C91D77C67A00222F6F /* UIKit.framework */,
+				F8B865C71D77C67000222F6F /* Security.framework */,
 				F8B864991D77C5CE00222F6F /* HBJSPatch */,
 				F8B864981D77C5CE00222F6F /* Products */,
+				08ABD24898DAA8DC261ED459 /* Pods */,
+				4EB7EE640178E0D9799D2AA4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +273,19 @@
 		F8B864991D77C5CE00222F6F /* HBJSPatch */ = {
 			isa = PBXGroup;
 			children = (
+				F8B8650C1D77C5E100222F6F /* JSPatch */,
+				F8B864C01D77C5D900222F6F /* Loader */,
 				F8B8649D1D77C5CE00222F6F /* AppDelegate.h */,
 				F8B8649E1D77C5CE00222F6F /* AppDelegate.m */,
+				F8B865121D77C5F900222F6F /* YYPatchManager.h */,
+				F8B865131D77C5F900222F6F /* YYPatchManager.m */,
 				F8B864A01D77C5CE00222F6F /* ViewController.h */,
 				F8B864A11D77C5CE00222F6F /* ViewController.m */,
 				F8B864A31D77C5CE00222F6F /* Main.storyboard */,
 				F8B864A61D77C5CE00222F6F /* Assets.xcassets */,
 				F8B864A81D77C5CE00222F6F /* LaunchScreen.storyboard */,
 				F8B864AB1D77C5CE00222F6F /* Info.plist */,
+				F8B865CD1D77CC3E00222F6F /* dribbble */,
 				F8B8649A1D77C5CE00222F6F /* Supporting Files */,
 			);
 			path = HBJSPatch;
@@ -79,6 +299,284 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F8B864C01D77C5D900222F6F /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				F8B864C11D77C5D900222F6F /* JPLoader.h */,
+				F8B864C21D77C5D900222F6F /* JPLoader.m */,
+				F8B864C31D77C5D900222F6F /* libs */,
+				F8B864D21D77C5D900222F6F /* tools */,
+			);
+			path = Loader;
+			sourceTree = "<group>";
+		};
+		F8B864C31D77C5D900222F6F /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				F8B864C41D77C5D900222F6F /* minizip */,
+				F8B864CE1D77C5D900222F6F /* RSA.h */,
+				F8B864CF1D77C5D900222F6F /* RSA.m */,
+				F8B864D01D77C5D900222F6F /* ZipArchive.h */,
+				F8B864D11D77C5D900222F6F /* ZipArchive.m */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		F8B864C41D77C5D900222F6F /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				F8B864C51D77C5D900222F6F /* crypt.h */,
+				F8B864C61D77C5D900222F6F /* ioapi.c */,
+				F8B864C71D77C5D900222F6F /* ioapi.h */,
+				F8B864C81D77C5D900222F6F /* mztools.c */,
+				F8B864C91D77C5D900222F6F /* mztools.h */,
+				F8B864CA1D77C5D900222F6F /* unzip.c */,
+				F8B864CB1D77C5D900222F6F /* unzip.h */,
+				F8B864CC1D77C5D900222F6F /* zip.c */,
+				F8B864CD1D77C5D900222F6F /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		F8B864D21D77C5D900222F6F /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				F8B864D31D77C5D900222F6F /* dribbble */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		F8B864D31D77C5D900222F6F /* dribbble */ = {
+			isa = PBXGroup;
+			children = (
+				F8B864D41D77C5D900222F6F /* CommonDefine.js */,
+				F8B864D51D77C5D900222F6F /* DBDataSource.js */,
+				F8B864D61D77C5D900222F6F /* DBDetailController.js */,
+				F8B864D71D77C5D900222F6F /* DBDetailViews.js */,
+				F8B864D81D77C5D900222F6F /* DBTimelineController.js */,
+				F8B864D91D77C5D900222F6F /* DBTimelineViews.js */,
+				F8B864DA1D77C5D900222F6F /* DBUserController.js */,
+				F8B864DB1D77C5D900222F6F /* DBUserViews.js */,
+				F8B864DC1D77C5D900222F6F /* imgs */,
+				F8B864E01D77C5D900222F6F /* main.js */,
+				F8B864E11D77C5D900222F6F /* main2.js */,
+				F8B864E21D77C5D900222F6F /* tmpData.js */,
+			);
+			path = dribbble;
+			sourceTree = "<group>";
+		};
+		F8B864DC1D77C5D900222F6F /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				F8B864DD1D77C5D900222F6F /* comment@2x.png */,
+				F8B864DE1D77C5D900222F6F /* like@2x.png */,
+				F8B864DF1D77C5D900222F6F /* view@2x.png */,
+			);
+			path = imgs;
+			sourceTree = "<group>";
+		};
+		F8B8650C1D77C5E100222F6F /* JSPatch */ = {
+			isa = PBXGroup;
+			children = (
+				F8B865151D77C64B00222F6F /* Extensions */,
+				F8B8650D1D77C5E100222F6F /* JPEngine.h */,
+				F8B8650E1D77C5E100222F6F /* JPEngine.m */,
+				F8B8650F1D77C5E100222F6F /* JSPatch.js */,
+			);
+			path = JSPatch;
+			sourceTree = "<group>";
+		};
+		F8B865151D77C64B00222F6F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F8B865161D77C64B00222F6F /* CoreGraphics */,
+				F8B865271D77C64B00222F6F /* JPCFunction */,
+				F8B8656D1D77C64C00222F6F /* JPCleaner.h */,
+				F8B8656E1D77C64C00222F6F /* JPCleaner.m */,
+				F8B8656F1D77C64C00222F6F /* JPLocker.h */,
+				F8B865701D77C64C00222F6F /* JPLocker.m */,
+				F8B865731D77C64C00222F6F /* JPNumber.h */,
+				F8B865741D77C64C00222F6F /* JPNumber.m */,
+				F8B865751D77C64C00222F6F /* JPPlaygroundTool */,
+				F8B865851D77C64C00222F6F /* JPSpecialInit.h */,
+				F8B865861D77C64C00222F6F /* JPSpecialInit.m */,
+				F8B865891D77C64C00222F6F /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F8B865161D77C64B00222F6F /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				F8B865171D77C64B00222F6F /* JPCGBitmapContext.h */,
+				F8B865181D77C64B00222F6F /* JPCGBitmapContext.m */,
+				F8B865191D77C64B00222F6F /* JPCGColor.h */,
+				F8B8651A1D77C64B00222F6F /* JPCGColor.m */,
+				F8B8651B1D77C64B00222F6F /* JPCGContext.h */,
+				F8B8651C1D77C64B00222F6F /* JPCGContext.m */,
+				F8B8651D1D77C64B00222F6F /* JPCGGeometry.h */,
+				F8B8651E1D77C64B00222F6F /* JPCGGeometry.m */,
+				F8B8651F1D77C64B00222F6F /* JPCGImage.h */,
+				F8B865201D77C64B00222F6F /* JPCGImage.m */,
+				F8B865211D77C64B00222F6F /* JPCGPath.h */,
+				F8B865221D77C64B00222F6F /* JPCGPath.m */,
+				F8B865231D77C64B00222F6F /* JPCGTransform.h */,
+				F8B865241D77C64B00222F6F /* JPCGTransform.m */,
+				F8B865251D77C64B00222F6F /* JPCoreGraphics.h */,
+				F8B865261D77C64B00222F6F /* JPCoreGraphics.m */,
+			);
+			path = CoreGraphics;
+			sourceTree = "<group>";
+		};
+		F8B865271D77C64B00222F6F /* JPCFunction */ = {
+			isa = PBXGroup;
+			children = (
+				F8B865281D77C64B00222F6F /* JPCFunction.h */,
+				F8B865291D77C64B00222F6F /* JPCFunction.m */,
+				F8B8652A1D77C64B00222F6F /* JPMemory.h */,
+				F8B8652B1D77C64B00222F6F /* JPMemory.m */,
+				F8B8652C1D77C64B00222F6F /* JPStructPointer.h */,
+				F8B8652D1D77C64B00222F6F /* JPStructPointer.m */,
+				F8B8652E1D77C64B00222F6F /* libffi */,
+			);
+			path = JPCFunction;
+			sourceTree = "<group>";
+		};
+		F8B8652E1D77C64B00222F6F /* libffi */ = {
+			isa = PBXGroup;
+			children = (
+				F8B8652F1D77C64B00222F6F /* headers */,
+				F8B865401D77C64B00222F6F /* src */,
+			);
+			path = libffi;
+			sourceTree = "<group>";
+		};
+		F8B8652F1D77C64B00222F6F /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				F8B865301D77C64B00222F6F /* ffi.h */,
+				F8B865311D77C64B00222F6F /* ffi_arm64.h */,
+				F8B865321D77C64B00222F6F /* ffi_armv7.h */,
+				F8B865331D77C64B00222F6F /* ffi_common.h */,
+				F8B865341D77C64B00222F6F /* ffi_i386.h */,
+				F8B865351D77C64B00222F6F /* ffi_x86_64.h */,
+				F8B865361D77C64B00222F6F /* fficonfig.h */,
+				F8B865371D77C64B00222F6F /* fficonfig_arm64.h */,
+				F8B865381D77C64B00222F6F /* fficonfig_armv7.h */,
+				F8B865391D77C64B00222F6F /* fficonfig_i386.h */,
+				F8B8653A1D77C64B00222F6F /* fficonfig_x86_64.h */,
+				F8B8653B1D77C64B00222F6F /* ffitarget.h */,
+				F8B8653C1D77C64B00222F6F /* ffitarget_arm64.h */,
+				F8B8653D1D77C64B00222F6F /* ffitarget_armv7.h */,
+				F8B8653E1D77C64B00222F6F /* ffitarget_i386.h */,
+				F8B8653F1D77C64B00222F6F /* ffitarget_x86_64.h */,
+			);
+			path = headers;
+			sourceTree = "<group>";
+		};
+		F8B865401D77C64B00222F6F /* src */ = {
+			isa = PBXGroup;
+			children = (
+				F8B865411D77C64B00222F6F /* aarch64 */,
+				F8B865441D77C64B00222F6F /* arm */,
+				F8B865481D77C64B00222F6F /* common */,
+				F8B8654C1D77C64B00222F6F /* x86 */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		F8B865411D77C64B00222F6F /* aarch64 */ = {
+			isa = PBXGroup;
+			children = (
+				F8B865421D77C64B00222F6F /* ffi_arm64.c */,
+				F8B865431D77C64B00222F6F /* sysv_arm64.S */,
+			);
+			path = aarch64;
+			sourceTree = "<group>";
+		};
+		F8B865441D77C64B00222F6F /* arm */ = {
+			isa = PBXGroup;
+			children = (
+				F8B865451D77C64B00222F6F /* ffi_armv7.c */,
+				F8B865461D77C64B00222F6F /* sysv_armv7.S */,
+				F8B865471D77C64B00222F6F /* trampoline_armv7.S */,
+			);
+			path = arm;
+			sourceTree = "<group>";
+		};
+		F8B865481D77C64B00222F6F /* common */ = {
+			isa = PBXGroup;
+			children = (
+				F8B865491D77C64B00222F6F /* prep_cif.c */,
+				F8B8654A1D77C64B00222F6F /* raw_api.c */,
+				F8B8654B1D77C64B00222F6F /* types.c */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		F8B8654C1D77C64B00222F6F /* x86 */ = {
+			isa = PBXGroup;
+			children = (
+				F8B8654D1D77C64B00222F6F /* darwin64_x86_64.S */,
+				F8B8654E1D77C64B00222F6F /* darwin_i386.S */,
+				F8B8654F1D77C64B00222F6F /* ffi64_x86_64.c */,
+				F8B865501D77C64B00222F6F /* ffi_i386.c */,
+				F8B865511D77C64B00222F6F /* win32_i386.S */,
+			);
+			path = x86;
+			sourceTree = "<group>";
+		};
+		F8B865751D77C64C00222F6F /* JPPlaygroundTool */ = {
+			isa = PBXGroup;
+			children = (
+				F8B865761D77C64C00222F6F /* JPPlayground.h */,
+				F8B865771D77C64C00222F6F /* JPPlayground.m */,
+				F8B865781D77C64C00222F6F /* JPPlaygroundModule */,
+				F8B8657D1D77C64C00222F6F /* JPPlaygroundView */,
+				F8B865841D77C64C00222F6F /* README.md */,
+			);
+			path = JPPlaygroundTool;
+			sourceTree = "<group>";
+		};
+		F8B865781D77C64C00222F6F /* JPPlaygroundModule */ = {
+			isa = PBXGroup;
+			children = (
+				F8B865791D77C64C00222F6F /* JPKeyCommands.h */,
+				F8B8657A1D77C64C00222F6F /* JPKeyCommands.m */,
+				F8B8657B1D77C64C00222F6F /* SGDirWatchdog.h */,
+				F8B8657C1D77C64C00222F6F /* SGDirWatchdog.m */,
+			);
+			path = JPPlaygroundModule;
+			sourceTree = "<group>";
+		};
+		F8B8657D1D77C64C00222F6F /* JPPlaygroundView */ = {
+			isa = PBXGroup;
+			children = (
+				F8B8657E1D77C64C00222F6F /* JPDevErrorView.h */,
+				F8B8657F1D77C64C00222F6F /* JPDevErrorView.m */,
+				F8B865801D77C64C00222F6F /* JPDevMenu.h */,
+				F8B865811D77C64C00222F6F /* JPDevMenu.m */,
+				F8B865821D77C64C00222F6F /* JPDevTipView.h */,
+				F8B865831D77C64C00222F6F /* JPDevTipView.m */,
+			);
+			path = JPPlaygroundView;
+			sourceTree = "<group>";
+		};
+		F8B865891D77C64C00222F6F /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				F8B8658A1D77C64C00222F6F /* JPUIGeometry.h */,
+				F8B8658B1D77C64C00222F6F /* JPUIGeometry.m */,
+				F8B8658C1D77C64C00222F6F /* JPUIGraphics.h */,
+				F8B8658D1D77C64C00222F6F /* JPUIGraphics.m */,
+				F8B8658E1D77C64C00222F6F /* JPUIImage.h */,
+				F8B8658F1D77C64C00222F6F /* JPUIImage.m */,
+				F8B865901D77C64C00222F6F /* JPUIKit.h */,
+				F8B865911D77C64C00222F6F /* JPUIKit.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +584,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8B864AE1D77C5CE00222F6F /* Build configuration list for PBXNativeTarget "HBJSPatch" */;
 			buildPhases = (
+				87A8DD656FE32623E5A0C870 /* Check Pods Manifest.lock */,
 				F8B864931D77C5CE00222F6F /* Sources */,
 				F8B864941D77C5CE00222F6F /* Frameworks */,
 				F8B864951D77C5CE00222F6F /* Resources */,
+				5302A8D03EAC504C5A161F46 /* Embed Pods Frameworks */,
+				25BEC2ECAC1BB891FAEEC77B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,22 +637,134 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8B864FC1D77C5D900222F6F /* DBTimelineViews.js in Resources */,
+				F8B865011D77C5D900222F6F /* view@2x.png in Resources */,
 				F8B864AA1D77C5CE00222F6F /* LaunchScreen.storyboard in Resources */,
+				F8B864F91D77C5D900222F6F /* DBDetailController.js in Resources */,
+				F8B865001D77C5D900222F6F /* like@2x.png in Resources */,
+				F8B865111D77C5E100222F6F /* JSPatch.js in Resources */,
 				F8B864A71D77C5CE00222F6F /* Assets.xcassets in Resources */,
+				F8B864FB1D77C5D900222F6F /* DBTimelineController.js in Resources */,
+				F8B864F81D77C5D900222F6F /* DBDataSource.js in Resources */,
+				F8B864F71D77C5D900222F6F /* CommonDefine.js in Resources */,
+				F8B865021D77C5D900222F6F /* main.js in Resources */,
+				F8B865031D77C5D900222F6F /* main2.js in Resources */,
+				F8B865CE1D77CC3E00222F6F /* dribbble in Resources */,
+				F8B864FD1D77C5D900222F6F /* DBUserController.js in Resources */,
+				F8B865041D77C5D900222F6F /* tmpData.js in Resources */,
+				F8B864FA1D77C5D900222F6F /* DBDetailViews.js in Resources */,
 				F8B864A51D77C5CE00222F6F /* Main.storyboard in Resources */,
+				F8B864FF1D77C5D900222F6F /* comment@2x.png in Resources */,
+				F8B864FE1D77C5D900222F6F /* DBUserViews.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25BEC2ECAC1BB891FAEEC77B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HBJSPatch/Pods-HBJSPatch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5302A8D03EAC504C5A161F46 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HBJSPatch/Pods-HBJSPatch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87A8DD656FE32623E5A0C870 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F8B864931D77C5CE00222F6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8B864F01D77C5D900222F6F /* JPLoader.m in Sources */,
+				F8B865C51D77C64C00222F6F /* JPUIImage.m in Sources */,
+				F8B865A81D77C64C00222F6F /* ffi_i386.c in Sources */,
+				F8B865A31D77C64C00222F6F /* raw_api.c in Sources */,
+				F8B8659E1D77C64C00222F6F /* sysv_arm64.S in Sources */,
+				F8B865B91D77C64C00222F6F /* JPNumber.m in Sources */,
+				F8B865B71D77C64C00222F6F /* JPLocker.m in Sources */,
+				F8B865BD1D77C64C00222F6F /* JPDevErrorView.m in Sources */,
+				F8B865941D77C64C00222F6F /* JPCGContext.m in Sources */,
+				F8B864F21D77C5D900222F6F /* mztools.c in Sources */,
+				F8B865961D77C64C00222F6F /* JPCGImage.m in Sources */,
+				F8B865C01D77C64C00222F6F /* README.md in Sources */,
+				F8B865A91D77C64C00222F6F /* win32_i386.S in Sources */,
+				F8B865C61D77C64C00222F6F /* JPUIKit.m in Sources */,
+				F8B865A61D77C64C00222F6F /* darwin_i386.S in Sources */,
+				F8B865971D77C64C00222F6F /* JPCGPath.m in Sources */,
+				F8B865141D77C5F900222F6F /* YYPatchManager.m in Sources */,
+				F8B865931D77C64C00222F6F /* JPCGColor.m in Sources */,
+				F8B865951D77C64C00222F6F /* JPCGGeometry.m in Sources */,
+				F8B865C41D77C64C00222F6F /* JPUIGraphics.m in Sources */,
+				F8B864F31D77C5D900222F6F /* unzip.c in Sources */,
+				F8B865A11D77C64C00222F6F /* trampoline_armv7.S in Sources */,
+				F8B865101D77C5E100222F6F /* JPEngine.m in Sources */,
 				F8B864A21D77C5CE00222F6F /* ViewController.m in Sources */,
+				F8B864F51D77C5D900222F6F /* RSA.m in Sources */,
+				F8B865981D77C64C00222F6F /* JPCGTransform.m in Sources */,
+				F8B865991D77C64C00222F6F /* JPCoreGraphics.m in Sources */,
+				F8B865BC1D77C64C00222F6F /* SGDirWatchdog.m in Sources */,
 				F8B8649F1D77C5CE00222F6F /* AppDelegate.m in Sources */,
+				F8B865A01D77C64C00222F6F /* sysv_armv7.S in Sources */,
+				F8B865921D77C64C00222F6F /* JPCGBitmapContext.m in Sources */,
 				F8B8649C1D77C5CE00222F6F /* main.m in Sources */,
+				F8B8659C1D77C64C00222F6F /* JPStructPointer.m in Sources */,
+				F8B865BB1D77C64C00222F6F /* JPKeyCommands.m in Sources */,
+				F8B865BF1D77C64C00222F6F /* JPDevTipView.m in Sources */,
+				F8B8659B1D77C64C00222F6F /* JPMemory.m in Sources */,
+				F8B865C11D77C64C00222F6F /* JPSpecialInit.m in Sources */,
+				F8B865A41D77C64C00222F6F /* types.c in Sources */,
+				F8B865A71D77C64C00222F6F /* ffi64_x86_64.c in Sources */,
+				F8B865BE1D77C64C00222F6F /* JPDevMenu.m in Sources */,
+				F8B864F11D77C5D900222F6F /* ioapi.c in Sources */,
+				F8B865A21D77C64C00222F6F /* prep_cif.c in Sources */,
+				F8B865C31D77C64C00222F6F /* JPUIGeometry.m in Sources */,
+				F8B864F61D77C5D900222F6F /* ZipArchive.m in Sources */,
+				F8B865BA1D77C64C00222F6F /* JPPlayground.m in Sources */,
+				F8B864F41D77C5D900222F6F /* zip.c in Sources */,
+				F8B8659A1D77C64C00222F6F /* JPCFunction.m in Sources */,
+				F8B8659F1D77C64C00222F6F /* ffi_armv7.c in Sources */,
+				F8B865A51D77C64C00222F6F /* darwin64_x86_64.S in Sources */,
+				F8B8659D1D77C64C00222F6F /* ffi_arm64.c in Sources */,
+				F8B865B61D77C64C00222F6F /* JPCleaner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,9 +874,11 @@
 		};
 		F8B864AF1D77C5CE00222F6F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FA94ADBC378B5F00A1680B4 /* Pods-HBJSPatch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HBJSPatch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yy.HBJSPatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,9 +887,11 @@
 		};
 		F8B864B01D77C5CE00222F6F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 037FB2895A1B7C2892C5A323 /* Pods-HBJSPatch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HBJSPatch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yy.HBJSPatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +917,7 @@
 				F8B864B01D77C5CE00222F6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

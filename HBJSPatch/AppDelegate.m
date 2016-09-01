@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "YYPatchManager.h"
+#import "JPEngine.h"
 @interface AppDelegate ()
 
 @end
@@ -15,8 +16,23 @@
 @implementation AppDelegate
 
 
+- (void)initRootViewController
+{
+    UIViewController * ctr = [UIViewController new];
+    self.window.rootViewController = ctr;
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window makeKeyAndVisible];
+    
+    //检测并运行补丁
+    [JPEngine handleException:^(NSString *msg) {
+        NSLog(@"%@",msg);
+    }];
+    [YYPatchManager run];
+    [self initRootViewController];
     return YES;
 }
 
