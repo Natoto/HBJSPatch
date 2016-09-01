@@ -101,8 +101,7 @@
         NSString *appVersion = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
         NSInteger patchV =  [JPLoader currentVersion];
         NSString *str = [NSString stringWithFormat:@"JSPatch异常: appVersion(%@) 补丁(v%@)",appVersion,@(patchV)];
-        NSException *exception = [NSException exceptionWithName:str reason:msg userInfo:nil];
-        [Bugly reportException:exception];
+        NSException *exception = [NSException exceptionWithName:str reason:msg userInfo:nil]; 
         [JPCleaner cleanAll];
         [JPLoader clearVersion];
     }];
